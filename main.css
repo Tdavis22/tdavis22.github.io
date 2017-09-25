@@ -7,9 +7,9 @@
   line-height: 20px;
   vertical-align: middle;
 
-  padding: 20px;
+  padding: 0px;
 
-  color: red;
+  color: white;
   text-decoration: underline;
 
   border-radius: 2px;
@@ -38,4 +38,15 @@
 
 .card-2 {
   background-color: #f29b26;
+}
+.centerMedia {
+  display: inline-block;
+  text-align: center;
+}
+.centerMedia {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: 525px;
 }
