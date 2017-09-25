@@ -44,6 +44,16 @@
   text-align: center;
 }
 .centerMedia {
+  float: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.centerMedia {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
